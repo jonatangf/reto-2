@@ -1,9 +1,13 @@
+html {
+    font-size: calc(5px * 1vw);
+}
+
 header {
     background-color: coral;
     min-height: 120px;
 }
 
-.header_title {
+.header-title {
     padding-top: 24px;
     color: white;
 }
@@ -18,12 +22,16 @@ header {
 }
 
 section {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-.special_image {
+.special-image {
     width: 95%;
+}
+
+.history-image {
+    width: 100%;
 }
 
 footer {
