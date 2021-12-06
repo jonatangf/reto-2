@@ -53,4 +53,8 @@ button {
 .image-container {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-} 
+}
+
+.contact-form {
+    margin-right: 24px;
+}

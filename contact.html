@@ -7,6 +7,7 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
     </head>
 
     <body>
@@ -19,61 +20,88 @@
             </div>
         </header>
         <div class="container body">
-            <section>
-                <h2>Contacta con nosotros</h2>
-            <form action="/contact" method="post">
-                <div class="container">
-                    <div class="d-flex">
-                        <div class="col-12">
-                            <label for="fname">Nombre</label>
-                            <input type="text" id="fname" name="fname" />
-                            <br>
-                            <br>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email"
-                                placeholder="usuario@guanche.com" />
-                            <br>
-                            <br>
-                            <textarea name="message" rows="10" cols="50">Introduce aquí tu mensaje</textarea>
+            <div class="row">
+                <div class="col"></div>
+                <section>
+                    <h2>Contacta con nosotros</h2>
+                    <form action="/contact" method="post" class="contact-form">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="fname">Nombre</label>
+                                            <input type="text" id="fname"
+                                                name="fname"
+                                                />
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="email">Email</label>
+                                            <input type="email" id="email" name="email"
+                                                placeholder="usuario@guanche.com" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="concept">Concepto</label>
+                                            <input type="text" id="concept" name="concept"
+                                                placeholder="" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <textarea name="message" rows="10"
+                                                cols="50">Introduce aquí tu mensaje</textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col"></div>
+                                <div class="col-12 col-sm-4">
+                                    <button type="button">Contactar</button>
+                                </div>
+                                <div class="col"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="d-flex">
-                        <div class="col-12 col-sm-4">
-                            <button type="button">Contactar</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-            </section>
+                    </form>
+                </section>
+                <div class="col"></div>
+            </div>
         </div>
         <footer>
             <div class="container">
-                <div class="d-flex">
-                    <div class="col-12 col-sm-4">
-                        <h3>Secciones</h3>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="menu.html">Menú</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-sm-5">
-                        <h3>Horario</h3>
-                        <ul>
-                            <li>Lunes cerrado</li>
-                            <li>Martes a viernes de 12:30 a 23:00</li>
-                            <li>Sábados 12:30 a 01:00</li>
-                            <li>Domingos y festivos de 12:30 a 00:00</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-sm-3">
-                        <h3>Redes sociales</h3>
-                        <ul>
-                            <li>Facebook</li>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
-                            <li><a
-                                    href="https://www.tripadvisor.com/Restaurant_Review-g187472-d15530212-Reviews-Restaurante_Tierra_Guanche-Las_Palmas_de_Gran_Canaria_Gran_Canaria_Canary_Island.html">Tripadvisor</a></li>
-                        </ul>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <h3>Secciones</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="menu.html">Menú</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-5">
+                            <h3>Horario</h3>
+                            <ul>
+                                <li>Lunes cerrado</li>
+                                <li>Martes a viernes de 12:30 a 23:00</li>
+                                <li>Sábados 12:30 a 01:00</li>
+                                <li>Domingos y festivos de 12:30 a 00:00</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <h3>Redes sociales</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li><a
+                                        href="https://www.tripadvisor.com/Restaurant_Review-g187472-d15530212-Reviews-Restaurante_Tierra_Guanche-Las_Palmas_de_Gran_Canaria_Gran_Canaria_Canary_Island.html">Tripadvisor</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
