@@ -1,4 +1,5 @@
 # First technical test - React Bootcamp - GeeksHubs Academy
+This repository contains the code developed for the GeeksHubs Academy React Bootcamp. The goal of this project is to use HTML5 and CSS to create a webpage for a restaurant.
 
 ## Deployment
 
@@ -18,6 +19,14 @@
 
 [localhost:80](http://localhost:80)
 
+## Backend
+This project does not have a backend at the moment, but it may have one in the future. We will keep you updated.
+
+## Frontend
+The technologies used to develop this webpage have been:
+* HTML5
+* CSS3
+* Bootstrap
 
 ## Development related interesting links
 * https://getbootstrap.com/docs/4.3/getting-started/introduction/
