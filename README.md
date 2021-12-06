@@ -19,6 +19,6 @@
 [localhost:80](http://localhost:80)
 
 
-## Interesting links
+## Development related interesting links
 * https://getbootstrap.com/docs/4.3/getting-started/introduction/
 * https://www.w3schools.com/howto/howto_css_image_responsive.asp
